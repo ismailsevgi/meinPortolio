@@ -1,0 +1,70 @@
+.container {
+  @apply w-full lg:h-screen px-14 pt-32;
+
+  .upArrow {
+    @apply flex justify-center items-center pt-20 lg:pt-10;
+
+    a {
+      @apply p-3 lg:p-4 rounded-full
+      transition-all duration-200 ease-in-out
+      shadow-lg shadow-gray-500 bg-blue-500
+      hover:bg-[#212121] hover:text-white hover:animate-pulse;
+
+      svg {
+        @apply text-2xl
+        transition-all duration-200 ease-in;
+      }
+    }
+  }
+
+  .content {
+    @apply xl:w-[70%] md:w-[90%] mx-auto h-full transition-all duration-200 ease-in;
+
+    h1,
+    h3 {
+      @apply capitalize mb-2;
+    }
+    h3 {
+      @apply text-2xl text-blue-700;
+    }
+
+    .group {
+      @apply flex justify-between items-center;
+
+      a {
+        @apply text-white bg-[#212121] py-2 px-4 rounded
+        shadow-md shadow-gray-400 border-2 border-[#212121]
+        hover:bg-transparent hover:text-[#212121] hover:font-semibold
+        transition-all duration-200 ease-in-out;
+      }
+    }
+
+    .projectsContainer {
+      @apply grid lg:grid-cols-2 2xl:grid-cols-3 gap-8 mt-10;
+    }
+  }
+}
+
+@media (min-width: 1520px) {
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+      'item1 item1 item1 item2'
+      'item4 item4 item3 item3';
+  }
+
+  .projectsContainer div:nth-of-type(1) {
+    grid-area: item1;
+  }
+  .projectsContainer div:nth-of-type(2) {
+    grid-area: item2;
+  }
+  .projectsContainer div:nth-of-type(3) {
+    grid-area: item3;
+  }
+  .projectsContainer div:nth-of-type(4) {
+    grid-area: item4;
+  }
+}

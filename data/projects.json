@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name": "E-Com Project",
+    "made": "ReactJS, RTK, Firebase",
+    "image": "/assets/projects/project2.png",
+    "technologies": ["js", "css", "html"],
+    "url": "/EComProject"
+  },
+  {
+    "id": 2,
+    "name": "Sozial Hub",
+    "made": "NextJS, Tailwind, Typescript, RTK",
+    "image": "/assets/projects/project1.png",
+    "url": "/SozialHub"
+  },
+  {
+    "id": 3,
+    "name": "Habit Tracker",
+    "made": "ReactJS",
+    "image": "/assets/projects/project4.png",
+    "url": "/habitTracker"
+  },
+  {
+    "id": 4,
+    "name": "TODO App",
+    "made": "JavaScript, MockAPI",
+    "image": "/assets/projects/project3.png",
+    "url": "/tenziesGame"
+  }
+]
