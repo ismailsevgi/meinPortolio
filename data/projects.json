@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "E-Com Project",
-    "made": "ReactJS, RTK, Firebase",
-    "image": "/assets/projects/project2.png",
-    "technologies": ["js", "css", "html"],
-    "url": "/EComProject"
+    "name": "Blog Project",
+    "made": "NextJS, Tailwind, Typescript",
+    "image": "/assets/projects/blogProject.png",
+    "url": "/blogProject"
   },
+
   {
     "id": 2,
     "name": "Sozial Hub",
@@ -16,16 +16,17 @@
   },
   {
     "id": 3,
-    "name": "Habit Tracker",
-    "made": "ReactJS",
-    "image": "/assets/projects/project4.png",
-    "url": "/habitTracker"
+    "name": "E-commerce templete",
+    "made": "NextJS, Tailwind, Typescript",
+    "image": "/assets/projects/E-com-templete.png",
+    "url": "/EcomTemplete"
   },
   {
     "id": 4,
-    "name": "TODO App",
-    "made": "JavaScript, MockAPI",
-    "image": "/assets/projects/project3.png",
-    "url": "/tenziesGame"
+    "name": "E-Com Project",
+    "made": "ReactJS, RTK, Firebase",
+    "image": "/assets/projects/project2.png",
+    "technologies": ["js", "css", "html"],
+    "url": "/EComProject"
   }
 ]
